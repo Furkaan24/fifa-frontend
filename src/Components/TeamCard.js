@@ -86,6 +86,9 @@ function TeamCard({ team, currencyFromState }) {
                   playerName={playerOne.name}
                   imageURL={playerOne.imageURL}
                   inTeam={true}
+                  rating={playerOne.rating}
+                  position={playerOne.position}
+                  age={playerOne.age}
                 />
               </Typography>
             ) : null}
@@ -95,6 +98,9 @@ function TeamCard({ team, currencyFromState }) {
                   playerName={playerTwo.name}
                   imageURL={playerTwo.imageURL}
                   inTeam={true}
+                  rating={playerTwo.rating}
+                  position={playerTwo.position}
+                  age={playerTwo.age}
                 />
               </Typography>
             ) : null}
@@ -104,6 +110,9 @@ function TeamCard({ team, currencyFromState }) {
                   playerName={playerThree.name}
                   imageURL={playerThree.imageURL}
                   inTeam={true}
+                  rating={playerThree.rating}
+                  position={playerThree.position}
+                  age={playerThree.age}
                 />
               </Typography>
             ) : null}
@@ -113,6 +122,9 @@ function TeamCard({ team, currencyFromState }) {
                   playerName={playerFour.name}
                   imageURL={playerFour.imageURL}
                   inTeam={true}
+                  rating={playerFour.rating}
+                  position={playerFour.position}
+                  age={playerFour.age}
                 />
               </Typography>
             ) : null}
@@ -122,6 +134,9 @@ function TeamCard({ team, currencyFromState }) {
                   playerName={playerFive.name}
                   imageURL={playerFive.imageURL}
                   inTeam={true}
+                  rating={playerFive.rating}
+                  position={playerFive.position}
+                  age={playerFive.age}
                 />
               </Typography>
             ) : null}
@@ -131,6 +146,9 @@ function TeamCard({ team, currencyFromState }) {
                   playerName={playerSix.name}
                   imageURL={playerSix.imageURL}
                   inTeam={true}
+                  rating={playerSix.rating}
+                  position={playerSix.position}
+                  age={playerSix.age}
                 />
               </Typography>
             ) : null}
@@ -140,6 +158,9 @@ function TeamCard({ team, currencyFromState }) {
                   playerName={playerSeven.name}
                   imageURL={playerSeven.imageURL}
                   inTeam={true}
+                  rating={playerSeven.rating}
+                  position={playerSeven.position}
+                  age={playerSeven.age}
                 />
               </Typography>
             ) : null}
@@ -149,6 +170,9 @@ function TeamCard({ team, currencyFromState }) {
                   playerName={playerEight.name}
                   imageURL={playerEight.imageURL}
                   inTeam={true}
+                  rating={playerEight.rating}
+                  position={playerEight.position}
+                  age={playerEight.age}
                 />
               </Typography>
             ) : null}
@@ -158,6 +182,9 @@ function TeamCard({ team, currencyFromState }) {
                   playerName={playerNine.name}
                   imageURL={playerNine.imageURL}
                   inTeam={true}
+                  rating={playerNine.rating}
+                  position={playerNine.position}
+                  age={playerNine.age}
                 />
               </Typography>
             ) : null}

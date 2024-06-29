@@ -128,6 +128,9 @@ function PlayersSelectorForPosition({
                 playerName={playerTen.name}
                 imageURL={playerTen.imageURL}
                 inTeam={true}
+                age={playerTen.age}
+                rating={playerTen.rating}
+                position={playerTen.position}
               />
             ) : null}
           </Grid>
@@ -137,6 +140,9 @@ function PlayersSelectorForPosition({
                 playerName={playerNine.name}
                 imageURL={playerNine.imageURL}
                 inTeam={true}
+                age={playerNine.age}
+                rating={playerNine.rating}
+                position={playerNine.position}
               />
             ) : null}
           </Grid>
@@ -146,6 +152,9 @@ function PlayersSelectorForPosition({
                 playerName={playerEight.name}
                 imageURL={playerEight.imageURL}
                 inTeam={true}
+                age={playerEight.age}
+                rating={playerEight.rating}
+                position={playerEight.position}
               />
             ) : null}
           </Grid>
@@ -163,6 +172,9 @@ function PlayersSelectorForPosition({
                 playerName={playerSeven.name}
                 imageURL={playerSeven.imageURL}
                 inTeam={true}
+                age={playerSeven.age}
+                rating={playerSeven.rating}
+                position={playerSeven.position}
               />
             ) : null}
           </Grid>
@@ -172,6 +184,9 @@ function PlayersSelectorForPosition({
                 playerName={playerSix.name}
                 imageURL={playerSix.imageURL}
                 inTeam={true}
+                age={playerSix.age}
+                rating={playerSix.rating}
+                position={playerSix.position}
               />
             ) : null}
           </Grid>
@@ -181,6 +196,9 @@ function PlayersSelectorForPosition({
                 playerName={playerFive.name}
                 imageURL={playerFive.imageURL}
                 inTeam={true}
+                age={playerFive.age}
+                rating={playerFive.rating}
+                position={playerFive.position}
               />
             ) : null}
           </Grid>
@@ -198,6 +216,9 @@ function PlayersSelectorForPosition({
                 playerName={playerFour.name}
                 imageURL={playerFour.imageURL}
                 inTeam={true}
+                age={playerFour.age}
+                rating={playerFour.rating}
+                position={playerFour.position}
               />
             ) : null}
           </Grid>
@@ -215,6 +236,9 @@ function PlayersSelectorForPosition({
                 playerName={playerThree.name}
                 imageURL={playerThree.imageURL}
                 inTeam={true}
+                age={playerThree.age}
+                rating={playerThree.rating}
+                position={playerThree.position}
               />
             ) : null}
           </Grid>
@@ -224,6 +248,9 @@ function PlayersSelectorForPosition({
                 playerName={playerTwo.name}
                 imageURL={playerTwo.imageURL}
                 inTeam={true}
+                age={playerTwo.age}
+                rating={playerTwo.rating}
+                position={playerTwo.position}
               />
             ) : null}
           </Grid>
@@ -241,6 +268,9 @@ function PlayersSelectorForPosition({
                 playerName={playerOne.name}
                 imageURL={playerOne.imageURL}
                 inTeam={true}
+                age={playerOne.age}
+                rating={playerOne.rating}
+                position={playerOne.position}
               />
             ) : null}
           </Grid>
@@ -266,6 +296,9 @@ function PlayersSelectorForPosition({
                 playerName={selectedPlayerEleven.name}
                 imageURL={selectedPlayerEleven.imageURL}
                 inTeam={true}
+                age={selectedPlayerEleven.age}
+                rating={selectedPlayerEleven.rating}
+                position={selectedPlayerEleven.position}
               />
             </Grid>
           )}
@@ -297,6 +330,9 @@ function PlayersSelectorForPosition({
                 playerName={selectedPlayerTen.name}
                 imageURL={selectedPlayerTen.imageURL}
                 inTeam={true}
+                age={selectedPlayerTen.age}
+                rating={selectedPlayerTen.rating}
+                position={selectedPlayerTen.position}
               />
             </Grid>
           )}
@@ -320,6 +356,9 @@ function PlayersSelectorForPosition({
                 playerName={selectedPlayerNine.name}
                 imageURL={selectedPlayerNine.imageURL}
                 inTeam={true}
+                age={selectedPlayerNine.age}
+                rating={selectedPlayerNine.rating}
+                position={selectedPlayerNine.position}
               />
             </Grid>
           )}
@@ -343,6 +382,9 @@ function PlayersSelectorForPosition({
                 playerName={selectedPlayerEight.name}
                 imageURL={selectedPlayerEight.imageURL}
                 inTeam={true}
+                age={selectedPlayerEight.age}
+                rating={selectedPlayerEight.rating}
+                position={selectedPlayerEight.position}
               />
             </Grid>
           )}
@@ -374,6 +416,9 @@ function PlayersSelectorForPosition({
                 playerName={selectedPlayerSeven.name}
                 imageURL={selectedPlayerSeven.imageURL}
                 inTeam={true}
+                age={selectedPlayerSeven.age}
+                rating={selectedPlayerSeven.rating}
+                position={selectedPlayerSeven.position}
               />
             </Grid>
           )}
@@ -397,6 +442,9 @@ function PlayersSelectorForPosition({
                 playerName={selectedPlayerSix.name}
                 imageURL={selectedPlayerSix.imageURL}
                 inTeam={true}
+                age={selectedPlayerSix.age}
+                rating={selectedPlayerSix.rating}
+                position={selectedPlayerSix.position}
               />
             </Grid>
           )}
@@ -420,6 +468,9 @@ function PlayersSelectorForPosition({
                 playerName={selectedPlayerFive.name}
                 imageURL={selectedPlayerFive.imageURL}
                 inTeam={true}
+                age={selectedPlayerFive.age}
+                rating={selectedPlayerFive.rating}
+                position={selectedPlayerFive.position}
               />
             </Grid>
           )}
@@ -451,6 +502,9 @@ function PlayersSelectorForPosition({
                 playerName={selectedPlayerFour.name}
                 imageURL={selectedPlayerFour.imageURL}
                 inTeam={true}
+                age={selectedPlayerFour.age}
+                rating={selectedPlayerFour.rating}
+                position={selectedPlayerFour.position}
               />
             </Grid>
           )}
@@ -482,6 +536,9 @@ function PlayersSelectorForPosition({
                 playerName={selectedPlayerThree.name}
                 imageURL={selectedPlayerThree.imageURL}
                 inTeam={true}
+                age={selectedPlayerThree.age}
+                rating={selectedPlayerThree.rating}
+                position={selectedPlayerThree.position}
               />
             </Grid>
           )}
@@ -505,6 +562,9 @@ function PlayersSelectorForPosition({
                 playerName={selectedPlayerTwo.name}
                 imageURL={selectedPlayerTwo.imageURL}
                 inTeam={true}
+                age={selectedPlayerTwo.age}
+                rating={selectedPlayerTwo.rating}
+                position={selectedPlayerTwo.position}
               />
             </Grid>
           )}
@@ -536,6 +596,9 @@ function PlayersSelectorForPosition({
                 playerName={selectedPlayerOne.name}
                 imageURL={selectedPlayerOne.imageURL}
                 inTeam={true}
+                age={selectedPlayerOne.age}
+                rating={selectedPlayerOne.rating}
+                position={selectedPlayerOne.position}
               />
             </Grid>
           )}

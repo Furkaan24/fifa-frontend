@@ -69,7 +69,7 @@ function Team({ team, selectedCurrency }) {
           variant="h4"
           component="div"
           style={{
-            color: "white",
+            color: "blue",
             marginTop: "20px",
             marginRight: "80rem",
             position: "absolute",
@@ -105,7 +105,7 @@ function Team({ team, selectedCurrency }) {
           }}
           alt="Stadium"
           src={stadium}
-          style={{ position: "absolute", marginTop: "46rem" }}
+          style={{ position: "absolute", marginTop: "48rem" }}
         />
         <div style={{ position: "absolute", marginTop: "50rem" }}>
           <PlayersSelectorForPosition
@@ -123,8 +123,8 @@ function Team({ team, selectedCurrency }) {
             variant="filled"
             style={{
               position: "absolute",
-              marginLeft: "45rem",
-              marginTop: "1rem",
+              marginLeft: "55rem",
+              marginTop: "10rem",
             }}
             onChange={(e) => {
               setTeamNameInput(e.target.value);
@@ -137,7 +137,8 @@ function Team({ team, selectedCurrency }) {
             color="primary"
             style={{
               position: "absolute",
-              marginLeft: "80rem",
+              marginLeft: "90rem",
+              marginTop: "10rem",
             }}
             disabled={buttonDisabled}
             onClick={() => {
@@ -158,7 +159,7 @@ function Team({ team, selectedCurrency }) {
             style={{
               position: "absolute",
               marginLeft: "80rem",
-              marginTop: "20rem",
+              marginTop: "30rem",
               color: "red",
             }}
           >

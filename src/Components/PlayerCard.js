@@ -19,7 +19,7 @@ function PlayerCard({
   const imageHeight = inTeam ? 100 : 200;
   const styleForSelected = isSelected
     ? {
-        backgroundColor: "#34cfeb",
+        backgroundColor: "#21f3bf",
         border: "2px solid #2196f3",
         borderRadius: "5px",
       }
@@ -27,9 +27,9 @@ function PlayerCard({
   const styleForInTeam = inTeam
     ? {
         width: "85px",
-        backgroundColor: "#34cfeb",
+        backgroundColor: "#21f3bf",
       }
-    : { backgroundColor: "#34cfeb" };
+    : { backgroundColor: "#21f3bf" };
 
   return (
     <Fragment>
